@@ -1,0 +1,181 @@
+.core {
+    width: 1200px;
+    margin: 0 auto;
+}
+ 
+ 
+@font-face {
+    font-family: 'icomoon';
+    /* 定义字体一定要写对路径 */
+    src: url('../fonts/icomoon.eot?7kkyc2');
+    src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?7kkyc2') format('truetype'), url('../fonts/icomoon.woff?7kkyc2') format('woff'), url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+/* 头部 */
+.logo img {
+    padding-top: 18px;
+    height: 127px;
+    width: 269px;
+    position:relative;
+    right: -438px;
+}
+ 
+/* 主体背景图 */
+.log_main {
+    height: 486px;
+    background-image: url(../image/桌面背景.png);
+    background-color: #fafafa;
+    
+}
+ 
+/* 主体内容 */
+.log_info {
+    position: relative;
+}
+ 
+.log_con {
+    position: absolute;
+    top: 60px;
+    right: 200px;
+    width: 380px;
+    height: 365px;
+    background-color: #e5e5e5;
+}
+ 
+/* 表单部分 */
+.account_login {
+    width: 305px;
+    /* height: 326px; */
+    margin: 15px auto 0;
+}
+ 
+/* 登陆选择 */
+.tab_list li {
+    float: left;
+    width: 152px;
+    font-size: 18px;
+    color: #666666;
+    line-height: 40px;
+    text-align: center;
+}
+ 
+.tab_list .current {
+    color: #c81623;
+}
+ 
+.tab_con li {
+    margin: 5px 0 0 38px;
+}
+ 
+/* 提示信息 */
+.tab_con .alter {
+    width: 300px;
+    height: 24px;
+    margin-top: 5px;
+    background-color: #fffdee;
+    border: 1px solid #f5eecf;
+    font-size: 12px;
+    color: #666;
+    text-indent: 1em;
+    line-height: 24px;
+}
+ 
+.user {
+    position: relative;
+}
+ 
+.user input {
+    width: 261px;
+    height: 34px;
+    border: 1px solid #bbbaba;
+    padding-left: 40px;
+    margin: 10px 0;
+}
+ 
+.user input:focus {
+    border-color: #3aa2e4;
+}
+ 
+.tab_con_ico {
+    position: absolute;
+    top: 11px;
+    left: 1px;
+    width: 37px;
+    height: 34px;
+    font-family: 'icomoon';
+    font-size: 25px;
+    color: rgb(255, 255, 255, .5);
+    text-align: center;
+    background-color: #cfcdcd;
+}
+ 
+.auto_log {
+    color: #b2b2b2;
+}
+ 
+.auto_log input {
+    display: inline-block;
+    vertical-align: middle;
+}
+ 
+.auto_log span {
+    float: right;
+    color: #333333;
+    margin-right: 40px;
+}
+ 
+.submit input {
+    width: 303px;
+    height: 41px;
+    background-color: #411114;
+    margin: 15px 0 20 0;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+}
+ 
+.submit input:hover {
+    cursor: pointer;
+}
+.submit a {
+    position: relative;
+    font-size: 15px;
+    color: white;
+    
+    right: 170px;
+   
+}
+ 
+.log_choose {
+    padding: 30px 50px 20px 30px;
+}
+ 
+.log_choose i {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    font-family: 'icomoon';
+    font-size: 25px;
+    color: grey;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 5px;
+}
+ 
+.log_choose a {
+    display: inline-block;
+    font-size: 14px;
+    color: #1474af;
+    padding-left: 50px;
+    vertical-align: middle;
+}
+ 
+.copyright {
+    text-align: center;
+}
+ 
+.copyright p {
+    margin: 10px 0;
+}

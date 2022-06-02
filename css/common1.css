@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}/*目的是为了清空标签默认设置*/
+body{
+	background-color: #F5F5F5;
+}
+.yuan{
+	color: #FF4400;
+	font-size: 10px;
+}
+.price{
+	color: #FF4400;
+	font-weight: bold;
+	margin-left: 3px;
+}

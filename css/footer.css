@@ -1,0 +1,13 @@
+#footer {
+	text-align: center;
+}
+
+#footer .link a {
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #666;
+}
+
+#footer .copyright {
+	margin-top: 20px;
+}
